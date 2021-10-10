@@ -37,5 +37,13 @@ pub fn run() -> Result<(), JsValue> {
 
     body.append_child(&val)?;
 
+
+    let val2 = document.create_element("p")?;
+    val2.set_inner_html("So in a h1:<br><h1>Hello from lib.rs!<h1>");
+
+    body.append_child(&val2)?;
+
+    
+
     Ok(())
 }
