@@ -1,5 +1,16 @@
+<h1>Run this app</h1>
 
-<h1>Instructions</h1>
+<pre>
+wasm-pack build
+cd www
+npm install
+npm run start
+</pre>
+
+<h1>Instructions to crete this repo from scratch</h1>
+
+create r3 folder, cd r3, then:
+<pre>cargo generate --git https://github.com/rustwasm/wasm-pack-template</pre>
 
 Run in root folder
 
